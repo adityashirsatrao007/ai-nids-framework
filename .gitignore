@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large Data Files (CICIDS2017)
+dataset/
+data/*.csv
+results/*.csv
+results/*.pth
+results/*.joblib
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Repository Specific
+nids_audit.db
+pipeline_final.log
+paper_figures/

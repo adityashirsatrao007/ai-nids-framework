@@ -1,0 +1,26 @@
+pandas
+numpy
+scikit-learn
+torch
+torchvision
+torchaudio
+xgboost==2.0.3
+shap>=0.44.0
+# UI
+streamlit
+
+# API Microservice
+fastapi
+uvicorn[standard]
+matplotlib
+seaborn
+pyarrow
+requests
+imbalanced-learn
+optuna
+tqdm
+plotly
+streamlit-extras
+streamlit-lottie
+fpdf2
+scipy
