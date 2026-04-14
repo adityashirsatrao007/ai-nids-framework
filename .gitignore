@@ -8,18 +8,26 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Large Data Files (CICIDS2017)
+# ============================================
+# LARGE FILES — Stored on Hugging Face instead
+# See: huggingface.co/datasets/adityashirsatrao007/AI-NIDS-Data
+# ============================================
+results/ready_sample.csv
+results/ensemble_v1.joblib
+results/explainer.joblib
+results/cnn_lstm_v1.pth
+results/scaler.joblib
+results/selected_features.joblib
+results/feature_names.joblib
+results/ablation_results.csv
+results/ensemble_metrics.csv
+
+# Raw source dataset (too large for any cloud repo)
 dataset/
-data/*.csv
-results/*.csv
-results/*.pth
-results/*.joblib
 
 # OS Specific
 .DS_Store
 Thumbs.db
 
-# Repository Specific
-nids_audit.db
-pipeline_final.log
-paper_figures/
+# Scratch / temp files
+fix_hf_readme.py
